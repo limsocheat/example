@@ -1,0 +1,24 @@
+{
+  "name": "facial-recognition",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@tensorflow/tfjs-node": "^2.3.0",
+    "canvas": "^2.6.1",
+    "face-api.js": "^0.22.2",
+    "facial-recognition": "^1.0.2",
+    "node-fetch": "^2.6.0",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
